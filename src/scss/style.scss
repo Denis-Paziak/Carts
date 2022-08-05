@@ -93,6 +93,12 @@
     }
 }
 
+@media screen and (max-height: 1000px) {
+    .hero-img {
+        height: 300px;
+    }
+}
+
 @media screen and (max-width: $max-md) {
     .hero-img {
         position: absolute;

@@ -427,6 +427,11 @@ a {
     margin-bottom: 100px;
   }
 }
+@media screen and (max-height: 1000px) {
+  .hero-img {
+    height: 300px;
+  }
+}
 @media screen and (max-width: 767px) {
   .hero-img {
     position: absolute;
