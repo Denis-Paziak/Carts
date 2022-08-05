@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- addition -->
+    <link rel="stylesheet" href="addition/normalize/normalize.css">
+    <link rel="stylesheet" href="addition/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="addition/AOS/aos.css">
+    <!-- style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container header_container">
+                <a href="#hero" class="logo">
+                    <img src="img/header/logo.png" alt="logo">
+                </a>
+                <nav class="nav">
+                    <div class="menu-but">
+                        <div class="menu-but__line menu-but__line-1"></div>
+                        <div class="menu-but__line menu-but__line-2"></div>
+                        <div class="menu-but__line menu-but__line-3"></div>
+                    </div>
+                    <ul class="menu">
+                        <li class="menu__item"><a href="#">Цены/прокат</a></li>
+                        <li class="menu__item"><a href="#">Акции</a></li>
+                        <li class="menu__item"><a href="#">Аренда</a></li>
+                        <li class="menu__item"><a href="#">Трасса</a></li>
+                        <li class="menu__item"><a href="#">Соревнования</a></li>
+                        <li class="menu__item"><a href="#">Школа</a></li>
+                        <li class="menu__item"><a href="#">Гоночная команда</a></li>
+                        <li class="menu__item"><a href="#">Продажа картингов</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section class="hero" id="hero">
+            <div class="section-bg hero_section-bg">
+                <img src="img/hero_section/BG_vector.svg" alt="BG_vector">
+                <img src="img/hero_section/blur_vector.svg" alt="blur">
+            </div>
+            <div class="hero-img">
+                <img src="img/hero_section/image.jpg" alt="hero-img">
+            </div>
+            <div class="container">
+                <div class="hero-text" data-aos="fade-up">
+                    <div class="hero-text__bg">
+                        <img src="img/hero_section/textBG.png" alt="textBG">
+                    </div>
+                    <h1 class="hero-text__title">Самый драйвовый картинг Грузии</h1>
+                    <p class="hero-text__subTitle">В пространство скорости, где слово «адреналин»
+                        обретает особый смысл
+                        и
+                        ощущения от быстрой езды сравнимы с американскими горками</p>
+                    <button class="button hero_button">Забронировать</button>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="carts">
+            <div class="section-bg carts_section-bg">
+                <img src="img/carts_section/bg_vector.svg" alt="BG_vector">
+            </div>
+            <div class="title title_reverse" data-aos="fade-up">
+                <div class="container title_container">
+                    <div class="title-el">
+                        <h2 class="title-el__title">Карты</h2>
+                        <div class="title-el__line"></div>
+                        <p class="title-el__subTitle">the fastest</p>
+                    </div>
+                    <div class="title-vector">
+                        <h2>Carts</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper swiper-carts" data-aos="fade-up">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="carts-box">
+                            <div class="carts-box__img">
+                                <img src="img/carts_section/two-seater.png" alt="two-seater">
+                            </div>
+                            <div class="carts-box-text">
+                                <div class="carts-box-text__title">
+                                    <h2>Двухместный</h2>
+                                </div>
+                                <h3 class="carts-box-text__subTitle">Tbkart R15 Honda GX270 9 HP</h3>
+                                <p class="carts-box-text__descr">Здесь всё по-взрослому: резкость управления и экстрим
+                                    скорости до 70 км/ч.
+                                    Удовольствие от вождения гоночного автомобиля в ваших руках.
+                                    Ограничения: по росту - от 150 см., по весу - до 115 кг.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="carts-box">
+                            <div class="carts-box__img">
+                                <img src="img/carts_section/grown.png" alt="grown">
+                            </div>
+                            <div class="carts-box-text">
+                                <div class="carts-box-text__title">
+                                    <h2>Взрослый</h2>
+                                </div>
+                                <h3 class="carts-box-text__subTitle">Tbkart R15 Honda GX270 9 HP</h3>
+                                <p class="carts-box-text__descr">Здесь всё по-взрослому: резкость управления и экстрим
+                                    скорости до 70 км/ч.
+                                    Удовольствие от вождения гоночного автомобиля в ваших руках.
+                                    Ограничения: по росту - от 150 см., по весу - до 115 кг.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="carts-box">
+                            <div class="carts-box__img">
+                                <img src="img/carts_section/childish.png" alt="childish">
+                            </div>
+                            <div class="carts-box-text">
+                                <div class="carts-box-text__title">
+                                    <h2>Детский</h2>
+                                </div>
+                                <h3 class="carts-box-text__subTitle">Tbkart R15 Honda GX270 9 HP</h3>
+                                <p class="carts-box-text__descr">Здесь всё по-взрослому: резкость управления и экстрим
+                                    скорости до 70 км/ч.
+                                    Удовольствие от вождения гоночного автомобиля в ваших руках.
+                                    Ограничения: по росту - от 150 см., по весу - до 115 кг.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="booking">
+            <div class="section-bg booking_section-bg">
+                <img src="img/booking/img.jpg" alt="img">
+                <img src="img/booking/vector.svg" alt="vector">
+                <img src="img/booking/blur.svg" alt="blur">
+                <img src="img/booking/blackout.png" alt="blackout">
+            </div>
+            <div class="title" data-aos="fade-up">
+                <div class="container title_container">
+                    <div class="title-el ">
+                        <h2 class="title-el__title">Забронировать</h2>
+                        <div class="title-el__line"></div>
+                        <p class="title-el__subTitle">one click</p>
+                    </div>
+                    <div class="title-vector">
+                        <h2>Booking</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="container booking_container">
+                <div class="booking-text">
+                    <p data-aos="fade-up">Встречайте трассу длинной 620 метров! <br> <br>
+                        Множество поворотов, обилие подсветки и главная
+                        достопримечательность — настоящий МИГ-31 – сделают каждый
+                        пройденый круг незабываемым!</p>
+                    <div class="booking-row">
+                        <div class="booking-col" data-aos="fade-up">
+                            <h2>620 М </h2>
+                            <p>Общая длина трассы</p>
+                        </div>
+                        <div class="booking-col" data-aos="fade-up">
+                            <h2>60 СЕК</h2>
+                            <p>Среднее время круга</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="booking-box-button" data-aos="fade-up">
+                    <button class="button booking_button">Бронировать</button>
+                </div>
+            </div>
+        </section>
+        <section class="features">
+            <div class="section-bg features_section-bg">
+                <img src="img/features/BG_Vector.svg" alt="vector">
+            </div>
+            <div class="title" data-aos="fade-up">
+                <div class="container title_container">
+                    <div class="title-el ">
+                        <h2 class="title-el__title">Особенности</h2>
+                        <div class="title-el__line"></div>
+                        <p class="title-el__subTitle">our features</p>
+                    </div>
+                    <div class="title-vector">
+                        <h2>Features</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="container features_container">
+                <div class="features-box" data-aos="fade-up">
+                    <div class="features-box__icon">
+                        <img src="img/features/track.svg" alt="track">
+                    </div>
+                    <div class="features-box-text">
+                        <h2 class="features-box-text__title">Трек</h2>
+                        <p class="features-box-text__descr">420 метров виражей, туннелей, мостов и бенкинга на двух
+                            уровнях</p>
+                    </div>
+                </div>
+                <div class="features-box" data-aos="fade-up">
+                    <div class="features-box__icon">
+                        <img src="img/features/acceleration.svg" alt="acceleration">
+                    </div>
+                    <div class="features-box-text">
+                        <h2 class="features-box-text__title">Ускорение</h2>
+                        <p class="features-box-text__descr">«Тесла» разгоняется до 100 км/ч за 4 сек., при снятии
+                            ограничения.</p>
+                    </div>
+                </div>
+                <div class="features-box" data-aos="fade-up">
+                    <div class="features-box__icon">
+                        <img src="img/features/security.svg" alt="security">
+                    </div>
+                    <div class="features-box-text">
+                        <h2 class="features-box-text__title">Безопасность </h2>
+                        <p class="features-box-text__descr">Современные карты и полный контроль со стороны сотрудников
+                            обеспечивают абсолютную безопасность гонки</p>
+                    </div>
+                </div>
+                <div class="features-box" data-aos="fade-up">
+                    <div class="features-box__icon">
+                        <img src="img/features/environmentalFriendliness.svg" alt="environmentalFriendliness">
+                    </div>
+                    <div class="features-box-text">
+                        <h2 class="features-box-text__title">Экологичность </h2>
+                        <p class="features-box-text__descr">Электрические карты ездят без шума, пыли, дыма и запаха.
+                            Отсутствуют горюче-смазочные материалы</p>
+                    </div>
+                </div>
+                <div class="features-box" data-aos="fade-up">
+                    <div class="features-box__icon">
+                        <img src="img/features/dynamics.svg" alt="dynamics">
+                    </div>
+                    <div class="features-box-text">
+                        <h2 class="features-box-text__title">Динамика </h2>
+                        <p class="features-box-text__descr">Кнопка Boost на руле — открывает уникальную возможность
+                            снять скоростное ограничение на 5 секунд</p>
+                    </div>
+                </div>
+                <div class="features-box" data-aos="fade-up">
+                    <div class="features-box__icon">
+                        <img src="img/features/reverse.svg" alt="reverse">
+                    </div>
+                    <div class="features-box-text">
+                        <h2 class="features-box-text__title">Задний ход </h2>
+                        <p class="features-box-text__descr">Все карты оснащены кнопкой Reverse, которая активирует
+                            задний ход у болида</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="section-bg contact_section-bg">
+                <img src="img/features/blur.svg" alt="blur">
+            </div>
+            <div class="title" data-aos="fade-up">
+                <div class="container title_container">
+                    <div class="title-el ">
+                        <h2 class="title-el__title">Контакты</h2>
+                        <div class="title-el__line"></div>
+                        <p class="title-el__subTitle">write to us</p>
+                    </div>
+                    <div class="title-vector">
+                        <h2>Contacts</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="container contact_container">
+                <div class="contact__info" data-aos="fade-up">
+                    <div class="contact__adrress">
+                        <span> Адрес:</span>
+                        <p> Грузия, Автономная Республика Аджария, Батуми, район Аэропорт</p>
+                    </div>
+                    <div class="contact__num">
+                        <p> +995 595 22 89 77</p>
+                    </div>
+                    <div class="contact__mail">
+                        <p> pochta@mail.com</p>
+                    </div>
+                    <div class="contact__schedule">
+                        <p> Ежедневно 11:00-20:00</p>
+                    </div>
+                    <button class="button contact_button">Заказать звонок</button>
+                </div>
+                <div class="contact__map" data-aos="fade-up">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2983.2644506273837!2d41.60866221496506!3d41.60679279032847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40678587ac5154a3%3A0xc7e816840a89e1b5!2z0JHQsNGC0YPQvNGB0LrQuNC5INC80LXQttC00YPQvdCw0YDQvtC00L3Ri9C5INCw0Y3RgNC-0L_QvtGA0YI!5e0!3m2!1sru!2sua!4v1659697035850!5m2!1sru!2sua"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="section-bg footer_section-bg">
+                <img src="img/footer/bg.svg" alt="bg">
+                <img src="img/booking/blackout.png" alt="blackout">
+            </div>
+            <div class="container footer_container">
+                <div class="footer-top">
+                    <div class="footer-top__row">
+                        <a href="#hero" class="logo">
+                            <img src="img/header/logo.png" alt="logo">
+                        </a>
+                        <p>It is a long established fact that a reader will be distracted
+                            by the readable content of a page when looking at its
+                            layout.</p>
+                    </div>
+
+                    <nav class="nav">
+                        <ul class="menu">
+                            <li class="menu__item"><a href="#">Цены/прокат</a></li>
+                            <li class="menu__item"><a href="#">Акции</a></li>
+                            <li class="menu__item"><a href="#">Аренда</a></li>
+                            <li class="menu__item"><a href="#">Трасса</a></li>
+                            <li class="menu__item"><a href="#">Соревнования</a></li>
+                            <li class="menu__item"><a href="#">Школа</a></li>
+                            <li class="menu__item"><a href="#">Гоночная команда</a></li>
+                            <li class="menu__item"><a href="#">Продажа картингов</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="copy-right">
+                    <p>© Batumi Kart Club Copyright 2022, All rights reserved.</p>
+                    <div class="soc">
+                        <a href="#" class="soc__item soc__item_instagram">
+                            <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248zm0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008z" />
+                                <circle cx="16.806" cy="7.207" r="1.078" />
+                                <path
+                                    d="M20.533 6.111A4.605 4.605 0 0 0 17.9 3.479a6.606 6.606 0 0 0-2.186-.42c-.963-.042-1.268-.054-3.71-.054s-2.755 0-3.71.054a6.554 6.554 0 0 0-2.184.42 4.6 4.6 0 0 0-2.633 2.632 6.585 6.585 0 0 0-.419 2.186c-.043.962-.056 1.267-.056 3.71 0 2.442 0 2.753.056 3.71.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.042 1.268.055 3.71.055s2.755 0 3.71-.055a6.615 6.615 0 0 0 2.186-.419 4.613 4.613 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.186.043-.962.056-1.267.056-3.71s0-2.753-.056-3.71a6.581 6.581 0 0 0-.421-2.217zm-1.218 9.532a5.043 5.043 0 0 1-.311 1.688 2.987 2.987 0 0 1-1.712 1.711 4.985 4.985 0 0 1-1.67.311c-.95.044-1.218.055-3.654.055-2.438 0-2.687 0-3.655-.055a4.96 4.96 0 0 1-1.669-.311 2.985 2.985 0 0 1-1.719-1.711 5.08 5.08 0 0 1-.311-1.669c-.043-.95-.053-1.218-.053-3.654 0-2.437 0-2.686.053-3.655a5.038 5.038 0 0 1 .311-1.687c.305-.789.93-1.41 1.719-1.712a5.01 5.01 0 0 1 1.669-.311c.951-.043 1.218-.055 3.655-.055s2.687 0 3.654.055a4.96 4.96 0 0 1 1.67.311 2.991 2.991 0 0 1 1.712 1.712 5.08 5.08 0 0 1 .311 1.669c.043.951.054 1.218.054 3.655 0 2.436 0 2.698-.043 3.654h-.011z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="soc__item soc__item_instagram">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 310 310"
+                                style="enable-background:new 0 0 310 310;" xml:space="preserve">
+                                <path id="XMLID_823_" d="M297.917,64.645c-11.19-13.302-31.85-18.728-71.306-18.728H83.386c-40.359,0-61.369,5.776-72.517,19.938
+		C0,79.663,0,100.008,0,128.166v53.669c0,54.551,12.896,82.248,83.386,82.248h143.226c34.216,0,53.176-4.788,65.442-16.527
+		C304.633,235.518,310,215.863,310,181.835v-53.669C310,98.471,309.159,78.006,297.917,64.645z M199.021,162.41l-65.038,33.991
+		c-1.454,0.76-3.044,1.137-4.632,1.137c-1.798,0-3.592-0.484-5.181-1.446c-2.992-1.813-4.819-5.056-4.819-8.554v-67.764
+		c0-3.492,1.822-6.732,4.808-8.546c2.987-1.814,6.702-1.938,9.801-0.328l65.038,33.772c3.309,1.718,5.387,5.134,5.392,8.861
+		C204.394,157.263,202.325,160.684,199.021,162.41z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="soc__item soc__item_instagram">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 310 310"
+                                style="enable-background:new 0 0 310 310;" xml:space="preserve">
+                                <path id="XMLID_827_" d="M302.973,57.388c-4.87,2.16-9.877,3.983-14.993,5.463c6.057-6.85,10.675-14.91,13.494-23.73
+                            c0.632-1.977-0.023-4.141-1.648-5.434c-1.623-1.294-3.878-1.449-5.665-0.39c-10.865,6.444-22.587,11.075-34.878,13.783
+                            c-12.381-12.098-29.197-18.983-46.581-18.983c-36.695,0-66.549,29.853-66.549,66.547c0,2.89,0.183,5.764,0.545,8.598
+                            C101.163,99.244,58.83,76.863,29.76,41.204c-1.036-1.271-2.632-1.956-4.266-1.825c-1.635,0.128-3.104,1.05-3.93,2.467
+                            c-5.896,10.117-9.013,21.688-9.013,33.461c0,16.035,5.725,31.249,15.838,43.137c-3.075-1.065-6.059-2.396-8.907-3.977
+                            c-1.529-0.851-3.395-0.838-4.914,0.033c-1.52,0.871-2.473,2.473-2.513,4.224c-0.007,0.295-0.007,0.59-0.007,0.889
+                            c0,23.935,12.882,45.484,32.577,57.229c-1.692-0.169-3.383-0.414-5.063-0.735c-1.732-0.331-3.513,0.276-4.681,1.597
+                            c-1.17,1.32-1.557,3.16-1.018,4.84c7.29,22.76,26.059,39.501,48.749,44.605c-18.819,11.787-40.34,17.961-62.932,17.961
+                            c-4.714,0-9.455-0.277-14.095-0.826c-2.305-0.274-4.509,1.087-5.294,3.279c-0.785,2.193,0.047,4.638,2.008,5.895
+                            c29.023,18.609,62.582,28.445,97.047,28.445c67.754,0,110.139-31.95,133.764-58.753c29.46-33.421,46.356-77.658,46.356-121.367
+                            c0-1.826-0.028-3.67-0.084-5.508c11.623-8.757,21.63-19.355,29.773-31.536c1.237-1.85,1.103-4.295-0.33-5.998
+                            C307.394,57.037,305.009,56.486,302.973,57.388z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="soc__item soc__item_instagram">
+
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 310 310"
+                                style="enable-background:new 0 0 310 310;" xml:space="preserve">
+                                <path id="XMLID_835_" d="M81.703,165.106h33.981V305c0,2.762,2.238,5,5,5h57.616c2.762,0,5-2.238,5-5V165.765h39.064
+		c2.54,0,4.677-1.906,4.967-4.429l5.933-51.502c0.163-1.417-0.286-2.836-1.234-3.899c-0.949-1.064-2.307-1.673-3.732-1.673h-44.996
+		V71.978c0-9.732,5.24-14.667,15.576-14.667c1.473,0,29.42,0,29.42,0c2.762,0,5-2.239,5-5V5.037c0-2.762-2.238-5-5-5h-40.545
+		C187.467,0.023,186.832,0,185.896,0c-7.035,0-31.488,1.381-50.804,19.151c-21.402,19.692-18.427,43.27-17.716,47.358v37.752H81.703
+		c-2.762,0-5,2.238-5,5v50.844C76.703,162.867,78.941,165.106,81.703,165.106z" />
+
+                            </svg>
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+    <!-- scripts -->
+    <script src="addition/swiper/swiper-bundle.min.js"></script>
+    <script src="addition/AOS/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

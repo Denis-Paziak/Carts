@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $normFont, sans-serif;
+    background: $black;
+    color: $while;
+}
+
+a {
+    text-decoration: none;
+    color: $while;
+}
+
+.container {
+    width: 1680px;
+    padding: 0 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
+.section-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.button {
+    border: none;
+    color: $while;
+    background: $mainGradient;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 20px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.button:hover {
+    transform: scaleX(1.05);
+}
+
+.title {
+    padding-top: 100px;
+
+    &_container {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.title-el {
+    display: flex;
+    align-items: flex-end;
+
+    &__title {
+        font-family: 'DotGothic16', sans-serif;
+        font-size: 3.6em;
+        letter-spacing: -0.25em;
+    }
+
+    &__line {
+        width: 200px;
+        height: 2px;
+        background: $while;
+        margin: 0px 20px;
+    }
+
+    &__subTitle {
+        font-size: 1.12em;
+        transform: translateY(50%);
+        opacity: 0.7;
+    }
+}
+
+.title-vector {
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+
+    h2 {
+        font-size: 9em;
+        font-family: 'DotGothic16', sans-serif;
+    }
+
+    opacity: 0.1;
+}
+
+.title_reverse {
+    .title_container {
+        flex-direction: row-reverse;
+    }
+
+    .title-el {
+        flex-direction: row-reverse;
+    }
+
+    .title-vector {
+        left: 20px;
+    }
+}
+
+@media screen and (max-width: $max-xxl) {
+    .title-vector {
+        h2 {
+            font-size: 5em;
+
+        }
+    }
+
+    .title-el {
+        &__line {
+            width: 100px;
+        }
+    }
+}
+
+@media screen and (max-width: $max-xl) {
+    .title-vector {
+        h2 {
+            font-size: 5em;
+
+        }
+    }
+
+    .title-el {
+        &__line {
+            width: 100px;
+        }
+    }
+}
+
+@media screen and (max-width: $max-md) {
+
+    .title {
+        padding-top: 30px;
+    }
+
+    .title_container {
+        justify-content: center;
+    }
+
+    .title-vector {
+        display: none;
+    }
+
+    .title-el {
+        flex-direction: column;
+        align-items: center;
+
+        &__title {
+            font-size: 2em;
+        }
+
+        &__subTitle {
+            margin-top: 20px;
+            transform: translateY(0%);
+        }
+
+        &__line {
+            display: none;
+        }
+    }
+
+    .title_reverse {
+        .title-el {
+            flex-direction: column;
+        }
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .container {
+        width: $max-xxl;
+    }
+}
+
+// `xxl` applies to x-large devices (large desktops, less than 1400px)
+@media screen and (max-width: $max-xxl) {
+    .container {
+        width: $max-xl;
+    }
+}
+
+// `xl` applies to large devices (desktops, less than 1200px)
+@media screen and (max-width: $max-xl) {
+    .container {
+        width: $max-lg;
+    }
+}
+
+// `lg` applies to medium devices (tablets, less than 992px)
+@media screen and (max-width: $max-lg) {
+    .container {
+        width: $max-md;
+    }
+}
+
+// `md` applies to small devices (landscape phones, less than 768px)
+@media screen and (max-width: $max-md) {
+    .container {
+        width: $max-sm;
+    }
+}
+
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@media screen and (max-width: $max-sm) {
+    .container {
+        width: 100%;
+    }
+}

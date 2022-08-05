@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'DotGothic16';
+    src: url('DotGothic16-Regular.eot');
+    src: local('DotGothic16 Regular'), local('DotGothic16-Regular'),
+        url('DotGothic16-Regular.eot?#iefix') format('embedded-opentype'),
+        url('DotGothic16-Regular.woff2') format('woff2'),
+        url('DotGothic16-Regular.woff') format('woff'),
+        url('DotGothic16-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
