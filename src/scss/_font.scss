@@ -2,24 +2,32 @@
     font-family: "Gilroy";
     src: url("../addition/fonts/Gilroy/Gilroy-Semibold.woff2") format("woff2");
     font-weight: 600;
+    font-display: swap;
+
 }
 
 @font-face {
     font-family: "Gilroy";
     src: url("../addition/fonts/Gilroy/Gilroy-Medium.woff2") format("woff2");
     font-weight: 500;
+    font-display: swap;
+
 }
 
 @font-face {
     font-family: "Gilroy";
     src: url("../addition/fonts/Gilroy/Gilroy-Regular.woff2") format("woff2");
     font-weight: 400;
+    font-display: swap;
+
 }
 
 @font-face {
     font-family: "DotGothic16";
     src: url("../addition/fonts/DotGothic16/DotGothic16-Regular.woff2") format("woff2");
     font-weight: 400;
+    font-display: swap;
+
 }
 
 $normFont: "Gilroy", sans-serif;
