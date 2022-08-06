@@ -1,7 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    AOS.init({
-        duration: 1000
-    });
+    AOS.init();
 
     new Swiper('.swiper-carts', {
         slidesPerView: 1,
